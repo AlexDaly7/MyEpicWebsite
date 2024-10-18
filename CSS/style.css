@@ -1,0 +1,166 @@
+/* General CSS for body and stuff */
+
+body, html	 {
+	margin: 0;
+	padding: 0;
+}
+
+
+/* Navbar CSS Navbar CSS Navbar CSS Navbar CSS Navbar CSS Navbar CSS Navbar CSS Navbar CSS */
+div.navbar ul {
+	padding: 0;
+	border: 0px;
+	overflow: hidden;
+	background-color: #3a3b3a;
+}
+
+div.navbar li {
+	display: inline;
+	
+}
+
+div.navbar a {
+	float: left;
+	padding: 13px 10px;
+	font-size: 20px;
+	text-decoration: none;
+	color: white;
+}
+
+#oldhearts, #imgme{
+	padding: 0px;
+	margin: 0px;
+	float: right;
+	border: 2px white dotted;	
+}
+
+#imgme {
+	border-color: #287afc;
+}
+
+div.navbar a:hover {
+		background-color: #292929;
+}
+
+div.navbar .active {
+	background-color: #295532 ;
+}
+
+
+
+/* Index CSS Index CSS Index CSS Index CSS Index CSS Index CSS Index CSS Index CSS */
+div.indexbody {
+	position: relative;
+	top: -2%;
+	background-color: black;
+	height: 100vh;
+	padding: 0;
+	color: white;
+	text-align: center;
+}
+
+div.indexmain > h1 {
+	padding: 1% 0% 0% 0%;
+	font-size: 250%;
+	font-variant: small-caps;
+	font-family: "Algerian", sans-serif;
+}
+
+div.indexmain > h2 {
+	font-size: 150%;
+	padding: 0.5%;
+}
+
+div.indexmain > marquee {
+	z-index: 100;
+	position: absolute;
+	top: 0%;
+	
+}
+
+/* About CSS About CSS About CSS About CSS About CSS About CSS About CSS About CSS  */
+
+#header {
+	font-variant: small-caps;
+	color: black;
+	font-size: 450%;
+	text-align: center;
+	border-style: outset;
+	border-width: 10px;
+	border-color: #9e1500;
+	margin: 1% 33% 0%;
+	background-image: url("pictures/housebout.jpg");
+	background-size: 100% 600%;
+	background-position: 100% 56%;
+	text-shadow: 2px 2px white;
+	position: relative;
+	z-index: 6;
+}
+
+div.socialmedia {
+	z-index: 5;
+	position: relative;	
+	bottom: 80px;
+	right: 100px;
+	float: right;
+	border-style: groove;
+	border-color: #8a1200;
+	border-width: 10px;
+	margin: 0px 20px;
+	padding: 4px 5px 0px 7px;
+	background-color: #51565e;
+	border-radius: 10px;
+}
+
+div.aboutbody {
+	background-image: url("pictures/heavenbackg.jpg");
+	background-size: 100vw 250vh;
+	height: 100vh;
+	
+}
+
+div.aboutmain {
+	margin: 5.5%;	
+	border: double 5px #d1a906;
+	background-color: #ad736a;
+	color: white;
+	font-family: Garamond, serif;
+	font-size: 14px;
+	position: relative;
+	bottom: 150px;
+	z-index: 0;
+}
+
+div.aboutme {
+	margin: 2%;
+	font-size: 13px;
+}
+
+#alex {
+	font-size: 30px;
+	font-family: "Times New Roman", serif;
+	font-variant: small-caps;
+	margin: 0;
+	text-shadow: 1px 1px black;
+}
+
+/* Music CSS  Music CSS  Music CSS  Music CSS  Music CSS  Music CSS  Music CSS  Music CSS  */
+
+div.musicbody {
+	height: 100vh;
+	background-image: url("pictures/dante.jpg");
+	background-size: 100% 100%;
+	background-position: 0% -6%;
+	background-repeat: no-repeat;
+	background-color: #e3dbdd;
+}
+
+div.bands {
+	border: groove 8px #961b90;
+	background-color: #2b5937;
+	margin: 5px 65% 1% 4%;
+	padding: 1%;
+	color: white;
+	text-align: center;
+	
+}
