@@ -7,7 +7,7 @@ body, html	 {
 
 
 /* Navbar CSS Navbar CSS Navbar CSS Navbar CSS Navbar CSS Navbar CSS Navbar CSS Navbar CSS */
-div.navbar ul {
+.navbar ul {
 	position: relative;
 	width: 100%;
 	padding: 0;
@@ -17,12 +17,12 @@ div.navbar ul {
 	z-index: 2;
 }
 
-div.navbar li {
+.navbar li {
 	display: inline;
 	
 }
 
-div.navbar a {
+.navbar a {
 	float: left;
 	padding: 13px 10px;
 	font-size: 20px;
@@ -41,18 +41,18 @@ div.navbar a {
 	border-color: #287afc;
 }
 
-div.navbar a:hover {
+.navbar a:hover {
 		background-color: #292929;
 }
 
-div.navbar .active {
+.navbar .active {
 	background-color: #295532 ;
 }
 
 
 
 /* Index CSS Index CSS Index CSS Index CSS Index CSS Index CSS Index CSS Index CSS */
-div.indexbody {
+.indexbody {
 	position: relative;
 	top: -2%;
 	background-color: black;
@@ -62,31 +62,25 @@ div.indexbody {
 	text-align: center;
 }
 
-div.indexmain {
+.indexmain {
 	position: relative;
 	z-index: 100;
 	overflow: hidden;
 }
 
-div.indexmain > h1 {
+.indexmain > h1 {
 	padding: 1% 0% 0% 0%;
 	font-size: 250%;
 	font-variant: small-caps;
-	font-family: "Algerian", sans-serif;
+	font-family: "Copperplate Gothic Light", sans-serif;
 }
 
-div.indexmain > h2 {
+.indexmain > h2 {
 	font-size: 150%;
 	padding: 0.5%;
 }
 
-div.indexbody > marquee {
-	z-index: 1;
-	position: absolute;
-	top: 20%;
-	right: 0%;
-	
-}
+
 
 /* About CSS About CSS About CSS About CSS About CSS About CSS About CSS About CSS  */
 
@@ -107,7 +101,7 @@ div.indexbody > marquee {
 	z-index: 6;
 }
 
-div.socialmedia {
+.socialmedia {
 	z-index: 5;
 	position: relative;	
 	bottom: 80px;
@@ -122,19 +116,19 @@ div.socialmedia {
 	border-radius: 10px;
 }
 
-#roundImage {
+.roundImage {
 	border-radius: 20%;
 }
 
-div.aboutbody {
+.aboutbody {
 	background-image: url("pictures/heavenbackg.jpg");
 	background-size: 100vw 250vh;
 	height: 100vh;
 	
 }
 
-div.aboutmain {
-	margin: 5.5%;
+.aboutmain {
+	margin: 5%;
 	padding: 0% 1.5%;
 	border: double 5px #d1a906;
 	background-color: #ad736a;
@@ -146,40 +140,61 @@ div.aboutmain {
 	z-index: 0;
 }
 
-div.aboutme {
+.aboutme {
 	margin: 3.5%;
-	font-size: 13px;
+	font-size: 110%;
 }
 
-div.aboutme > h2 {
-	padding: 0 0 0.5% 0;
-}
-
-#alex {
-	font-size: 30px;
+.aboutme > h2 {
+	padding: 0 0 2% 0;
+	font-size: 300%;
 	font-family: "Times New Roman", serif;
 	font-variant: small-caps;
 	margin: 0;
-	text-shadow: 1px 1px black;
+	text-shadow: 2px 2px black;
+	
 }
 
-/* Music CSS  Music CSS  Music CSS  Music CSS  Music CSS  Music CSS  Music CSS  Music CSS  */
+#aboutferret {
+	position: relative;
+	float: right;
+	left: 0.9%;
+	border: #e3b200 double 4px;
+}
 
-div.musicbody {
+/* Intro CSS Intro CSS Intro CSS Intro CSS Intro CSS Intro CSS Intro CSS  */
+
+div.introbody {
 	height: 100vh;
 	background-image: url("pictures/dante.jpg");
-	background-size: 100% 100%;
+	background-size: 100% 160%;
 	background-position: 0% -6%;
 	background-repeat: no-repeat;
 	background-color: #e3dbdd;
 }
 
-div.bands {
-	border: groove 8px #961b90;
-	background-color: #2b5937;
-	margin: 5px 65% 1% 4%;
+div.intromain {
+	border: double 5px #996c02;
+	border-radius: 5% / 30%;
+	background-color: #dbb127;
+	margin: 2% 20%;
 	padding: 1%;
-	color: white;
+	color: #30250d;
 	text-align: center;
+	
+}
+
+#introHeader {
+	font-size: 230%;
+	font-variant: small-caps;
+}
+
+/* Maze1 CSS Maze1 CSS Maze1 CSS Maze1 CSS Maze1 CSS Maze1 CSS Maze1 CSS */ 
+
+.m1body {
+	
+}
+
+.m1main {
 	
 }
