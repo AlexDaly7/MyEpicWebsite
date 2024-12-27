@@ -15,8 +15,11 @@ function loadNew() {
 function checkMaze() {
 	pageStored = localStorage.getItem("page");
 	alert(pageStored + " | " + name);
+	
 	if (pageStored != name) {
 		alert(pageStored + " this means it is not the same");	
-		
+		pageLocation = url.substr(0, index) + pageStored;
+		alert(pageLocation);
+		location.replace(pageLocation);
 	}
 }
