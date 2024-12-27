@@ -6,10 +6,10 @@ var name = url.substr(index);
 
 function loadNew() {
 	
-	//localStorage.setItem("page", name);
+	localStorage.setItem("page", name);
 	alert("set new page " + name);
 	alert(localStorage.getItem("page"));
-
+	
 }
 
 function checkMaze() {
@@ -17,6 +17,6 @@ function checkMaze() {
 	alert(pageStored + " | " + name);
 	if (pageStored != name) {
 		alert(pageStored + " this means it is not the same");	
-	
+		
 	}
 }
