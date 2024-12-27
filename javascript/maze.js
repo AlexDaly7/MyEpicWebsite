@@ -12,8 +12,11 @@ function loadNew() {
 }
 
 function checkMaze() {
+	alert("check has been completed");
 	if (pageStored != name) {
 		location.replace(pageUrl + pageStored);
+	} else {
+	alert("no difference detected");	
 	}
 }
 
