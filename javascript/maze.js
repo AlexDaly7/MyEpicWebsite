@@ -3,6 +3,7 @@
 var url = window.location.pathname;
 var index = url.lastIndexOf("/") + 1;
 var name = url.substr(index);
+pageLocation = url.substr(0, index) + pageStored;
 
 function loadNew() {
 	
@@ -18,8 +19,13 @@ function checkMaze() {
 	
 	if (pageStored != name) {
 		alert(pageStored + " this means it is not the same");	
-		pageLocation = url.substr(0, index) + pageStored;
 		alert(pageLocation);
 		location.replace(pageLocation);
 	}
+}
+
+function goToMaze(setPage) {
+	localStorage.setItem("page", setPage);
+	location.replace(pageLocation + setPage);
+	alert("page changed);
 }
