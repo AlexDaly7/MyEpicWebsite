@@ -227,10 +227,10 @@ div.intromain {
 
 .m1main {
 	margin: 5%;
-	border: 4px black solid;
 	padding: 0% 2% 5% 2%;
-	border-radius: 5% / 5%;
-	background-color: #877777;
+	background-image: url("pictures/m1bg1.jpg");
+	background-size: 75px;
+	border-radius: 1% / 1%;
 }
 
 .m1intro {
@@ -252,25 +252,34 @@ div.intromain {
 	
 }
 
+.m1img1, .m1img2, .m1img3, .m1img4 {
+	text-align: center;
+	font-size: 130%;
+	
+}
+
 .m1img1 {
 	grid-column: 1;
 	grid-row: 1;
-	text-align: center;
-	font-size: 130%;
+	
 }
 
 .m1img2 {
 	grid-column: 2;
 	grid-row: 1;
-	text-align: center;
-	font-size: 130%;
+
 }
 
 .m1img3 {
 	grid-column: 1;
 	grid-row: 2;
-	text-align: center;
-	font-size: 130%;
+
+}
+
+.m1img4 {
+	grid-column: 2;
+	grid-row: 2;
+	
 }
 
 .m1img {
