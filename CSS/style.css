@@ -3,7 +3,12 @@
 body, html	 {
 	margin: 0;
 	padding: 0;
-	height: 100%;
+}
+
+body {
+	position: absolute;
+	top: -5%;
+	
 }
 
 /* Navbar CSS Navbar CSS Navbar CSS Navbar CSS Navbar CSS Navbar CSS Navbar CSS Navbar CSS */
@@ -194,7 +199,8 @@ div.intromain {
 .m1body {
 	background-image: url("./pictures/m1bg.jpg");
 	background-size: 100px;
-
+	padding: 2% 0% 0% 0%;
+	
 }
 
 .m1header {
