@@ -287,4 +287,24 @@ div.intromain {
 	height: auto;
 }
 
+.m1craft {
+	background-image: url("pictures/m1bg2.png");
+	background-size: 2.5%;
+	text-align: center;
+	padding: 4% 1%;
+	margin: 2% 20%;
+}
+
+.m1craft > img {
+	width: 50%;
+	height: auto;
+}
+
+.m1item {
+	position: fixed;
+	width: 4%;
+	height: auto;
+	cursor: move;
+	
+}
 /* Maze2 CSS Maze2 CSS Maze2 CSS Maze2 CSS Maze2 CSS Maze2 CSS Maze2 CSS  */
